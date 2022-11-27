@@ -2,9 +2,7 @@
 name: Build and Publish Docker Image
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
 jobs:
   build:
     runs-on: ubuntu-latest
